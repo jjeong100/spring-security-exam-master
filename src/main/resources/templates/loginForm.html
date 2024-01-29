@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+</head>
+<body>
+    <h1>로그인 페이지</h1>
+    <hr>
+    <form action="/loginProc" method="post">
+        <input class="input-box" type="text" name="username" placeholder="User Name"> <br/>
+        <input class="input-box"  type="password" name="password" placeholder="Password"> <br/>
+        <button>로그인</button>
+    </form>
+
+    <a href="/oauth2/authorization/google">구글 로그인</a>
+    <!-- 
+        oauth2 client를 사용하면 이 주소값은 고정되어 있는 주소값입니다.
+        구글 api에서 redirect url설정하는 것도 이 라이브러리를 사용하면 고정된 값입니다.
+
+        -->
+    <a href="/join">회원가입이 필요하신가요?</a>
+
+</body>
+
+<style>
+    .input-box{
+        width: 200px;
+        height: 50px;
+        margin: 20px 20px 20px 20px;
+        font-size: 20px;
+    }
+    button{
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+        margin: 20px 20px 50px 20px;
+    }
+
+</style>
+
+</html>
