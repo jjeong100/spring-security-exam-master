@@ -1,5 +1,5 @@
 # Spring security 예제
-* 강의 : 최주호님의 스프링부트 시큐리티 & JWT 강의 ( https://inf.run/R1AW )
+* 강의 : 스프링부트 시큐리티 & JWT 강의 ( https://inf.run/R1AW )
 * 사용 버전
   * spring boot ***(3.1.1)***
   * spring boot oauth2 client(3.1.1)
