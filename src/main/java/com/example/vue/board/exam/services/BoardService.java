@@ -7,9 +7,9 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.example.vue.board.exam.dto.BoardDto;
 import com.example.vue.board.exam.entity.BoardEntity;
 import com.example.vue.board.exam.repository.BoardRepository;
-import com.example.vue.board.exam.web.dto.BoardDto;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

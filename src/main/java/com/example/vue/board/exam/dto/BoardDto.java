@@ -1,4 +1,4 @@
-package com.example.vue.board.exam.web.dto;
+package com.example.vue.board.exam.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

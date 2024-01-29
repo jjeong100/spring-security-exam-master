@@ -1,4 +1,4 @@
-package com.example.vue.board.exam.web;
+package com.example.vue.board.exam.controller;
 
 import java.util.List;
 
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.vue.board.exam.dto.BoardDto;
 import com.example.vue.board.exam.entity.BoardEntity;
 import com.example.vue.board.exam.services.BoardService;
-import com.example.vue.board.exam.web.dto.BoardDto;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -27,7 +27,6 @@ public class BoardController {
 
     @GetMapping("/board/list")
     public List<BoardDto> boardList() { 
-    	System.out.println("■■■■■■■■■■ board/list");
     	return boardService.getBoardList(); }
 
     @GetMapping("/board/{id}")
